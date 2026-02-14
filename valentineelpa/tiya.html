@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untuk Elva - Maafkan Aku Sayang 💕</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌹</text></svg>">
+    <link rel="stylesheet" href="tiyaival.css">
+</head>
+<body>
+    <!-- Progress Bar -->
+    <div class="progress-bar" id="progressBar"></div>
+
+    <!-- Navigation Dots -->
+    <div class="nav-dots">
+        <div class="nav-dot active" onclick="scrollToSection(0)"></div>
+        <div class="nav-dot" onclick="scrollToSection(1)"></div>
+        <div class="nav-dot" onclick="scrollToSection(2)"></div>
+        <div class="nav-dot" onclick="scrollToSection(3)"></div>
+        <div class="nav-dot" onclick="scrollToSection(4)"></div>
+    </div>
+
+    <!-- Back to Top -->
+    <div class="back-to-top" id="backToTop" onclick="scrollToSection(0)"></div>
+
+    <!-- SECTION 1: INTRO -->
+    <section id="intro">
+        <div class="intro-content">
+            <h1 class="intro-title">Untuk Kamu...</h1>
+            <p class="intro-name">Elva Adistiya Candraningtyas</p>
+            <p class="intro-subtitle">
+                Aku buat ini semua untukmu dengan sepenuh hati 💕<br>
+                Scroll ke bawah untuk lihat perasaanku...
+            </p>
+            <div class="scroll-hint">
+                <p>Scroll ke bawah</p>
+                <p style="font-size: 2rem;">↓</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 2: FIREWORKS -->
+    <section id="fireworks">
+        <canvas class="fireworks-canvas" id="fireworksCanvas"></canvas>
+        <div class="fireworks-content">
+            <h2 class="fireworks-title">Kembang Api Cinta</h2>
+            <p class="fireworks-name">Elva Adistiya Candraningtyas</p>
+            <p class="fireworks-message">
+                Seperti kembang api yang menerangi langit malam,<br>
+                kehadiranmu menerangi hidupku dengan kebahagiaan.<br><br>
+                Setiap ledakan warna adalah ungkapan cintaku yang meluap untukmu 🎆💕
+            </p>
+        </div>
+    </section>
+
+    <!-- SECTION 3: APOLOGY -->
+    <section id="apology">
+        <div class="apology-container">
+            <h2 class="apology-title">Maafkan Aku Sayang 💔</h2>
+            
+            <p class="apology-text">
+                Sayang, aku tahu aku salah. Mungkin <span class="highlight">kata-kataku</span> 
+                atau <span class="highlight">tindakanku</span> telah menyakiti hatimu yang lembut.
+            </p>
+            
+            <p class="apology-text">
+                Aku sangat menyesal dan aku ingin kamu tahu bahwa aku tidak pernah bermaksud 
+                untuk <span class="highlight">menyakitimu</span>. Kamu adalah orang yang paling berarti dalam hidupku.
+            </p>
+            
+            <p class="apology-text">
+                Aku mengerti kalau maaf saja tidak cukup. Tapi aku janji akan 
+                <span class="highlight">berusaha lebih keras</span> untuk menjadi pribadi yang lebih baik, 
+                yang lebih berhati-hati dengan perasaanmu, dan yang lebih menghargai kehadiranmu.
+            </p>
+            
+            <p class="apology-text">
+                Cinta kita terlalu berharga untuk aku sia-siakan. 
+                Kamu terlalu <span class="highlight">spesial</span> untuk kehilangan.
+            </p>
+            
+            <p class="signature">
+                Dengan penyesalan yang mendalam,<br>
+                Dan cinta yang tak pernah pudar 💕
+            </p>
+        </div>
+    </section>
+
+    <!-- SECTION 4: GARDEN -->
+    <section id="garden">
+        <div class="garden-wrapper">
+            <div class="garden-header">
+                <h2 class="garden-title">Taman Bunga Untukmu 🌸</h2>
+                <p class="garden-subtitle">Setiap bunga tumbuh dengan harapan pengampunanmu</p>
+            </div>
+
+            <div class="garden-area">
+                <div class="grass"></div>
+                <div class="ground"></div>
+
+                <div class="flowers-row">
+                    <div class="flower-item">
+                        <div class="stem">
+                            <div class="leaf left" style="--rotation: -35deg;"></div>
+                            <div class="leaf right" style="--rotation: 35deg;"></div>
+                            <div class="flower-head">🌹</div>
+                        </div>
+                        <div class="flower-name">Mawar</div>
+                    </div>
+
+                    <div class="flower-item">
+                        <div class="stem">
+                            <div class="leaf left" style="--rotation: -35deg;"></div>
+                            <div class="leaf right" style="--rotation: 35deg;"></div>
+                            <div class="flower-head">🌷</div>
+                        </div>
+                        <div class="flower-name">Tulip</div>
+                    </div>
+
+                    <div class="flower-item">
+                        <div class="stem">
+                            <div class="leaf left" style="--rotation: -35deg;"></div>
+                            <div class="leaf right" style="--rotation: 35deg;"></div>
+                            <div class="flower-head">🌻</div>
+                        </div>
+                        <div class="flower-name">Matahari</div>
+                    </div>
+
+                    <div class="flower-item">
+                        <div class="stem">
+                            <div class="leaf left" style="--rotation: -35deg;"></div>
+                            <div class="leaf right" style="--rotation: 35deg;"></div>
+                            <div class="flower-head">🌸</div>
+                        </div>
+                        <div class="flower-name">Sakura</div>
+                    </div>
+
+                    <div class="flower-item">
+                        <div class="stem">
+                            <div class="leaf left" style="--rotation: -35deg;"></div>
+                            <div class="leaf right" style="--rotation: 35deg;"></div>
+                            <div class="flower-head">🪷</div>
+                        </div>
+                        <div class="flower-name">Lotus</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flower-meaning">
+                <h3>Arti Setiap Bunga</h3>
+                <p class="meaning-item">🌹 <strong>Mawar</strong> - Cintaku yang dalam dan permintaan maafku yang tulus</p>
+                <p class="meaning-item">🌷 <strong>Tulip</strong> - Harapanku untuk awal yang baru dengan kita</p>
+                <p class="meaning-item">🌻 <strong>Matahari</strong> - Kamu adalah cahaya yang menerangi hidupku</p>
+                <p class="meaning-item">🌸 <strong>Sakura</strong> - Keindahan cinta kita yang harus dijaga</p>
+                <p class="meaning-item">🪷 <strong>Lotus</strong> - Kemurnian niatku untuk berubah lebih baik</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 5: FINAL MESSAGE -->
+    <section id="final">
+        <div class="final-container">
+            <div class="final-emoji">❤️</div>
+            
+            <h2 class="final-title">Janjiku Untukmu</h2>
+            
+            <p class="final-message">
+                Elva, kamu adalah segalanya bagiku.<br>
+                Aku ingin membuktikan bahwa aku serius untuk berubah.
+            </p>
+
+            <div class="promise-box">
+                <h3>Aku Berjanji Akan:</h3>
+                <ul class="promise-list">
+                    <li>💬 Lebih berhati-hati dengan kata-kataku agar tidak menyakitimu lagi</li>
+                    <li>👂 Mendengarkan dengan lebih baik dan memahami perasaanmu</li>
+                    <li>🤗 Selalu ada untukmu di saat kamu membutuhkan</li>
+                    <li>💕 Menghargai setiap momen bersama kita</li>
+                    <li>🌟 Berusaha menjadi versi terbaik dari diriku untukmu</li>
+                    <li>❤️ Mencintaimu dengan sepenuh hati, tanpa syarat</li>
+                </ul>
+            </div>
+
+            <p class="final-love">
+                Maafkan aku, Elva...<br>
+                I Love You So Much 🌹💖
+            </p>
+        </div>
+    </section>
+    <script src="tiyaloveival.js"></script>
+
+</body>
+</html>
